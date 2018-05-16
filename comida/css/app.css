@@ -1,0 +1,88 @@
+body{
+background-image: url('../img/fondo1.jpg');
+background-size:cover;
+
+}
+
+.callout{
+    background-color: #ccc;
+	color: #111;
+}
+
+.cab{
+    background-color: #1308;
+    color: alicebluebl;
+/*    opacity: 0.6;*/
+    
+}
+.column{
+	border:none
+}
+
+.foto1{
+    margin: 15px;
+    text-align: center;
+}
+
+.contenido{
+    text-align: justify;
+    margin: 15px;
+}
+
+.icono{
+    margin-bottom: 0px;
+	border: none
+}
+.comentario{
+    width:  100%;
+	border: none
+}
+.comentar{
+	margin:15px;
+	color:#444;
+	font-style: italic
+}
+.user{border:dashed 0.5px;
+margin:15px}
+
+.boton{
+    width: 100%;
+}
+
+.coment{
+    display: flex;
+    flex-flow: row wrap;
+	border: none
+}
+
+.buscar{
+    border-radius: 10px;
+}
+
+.nav{
+    list-style: none;
+}
+
+
+body li a{
+    color: black;
+}
+
+.panel{
+    background-color: #1308;
+/*    background-color: #0288;*/
+/*background-color: rgba(91, 91, 142, 0.3);*/
+
+}
+
+.texto{
+    color: white;
+    text-align: justify;
+}
+
+a:hover{
+    color: white;
+}
+div{
+  border: 1px solid black;
+}

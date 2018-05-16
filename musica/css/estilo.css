@@ -1,84 +1,108 @@
-body{
-	overflow: hidden;
+body
+{
+  background-color:	#FFF5EE;
+	color: #fff
 }
-#header{
-	padding:10px 10px;
-	overflow: hidden;
-	background-color: #ABD8D6;
+header
+{
+  background-color: #999;
 }
-.redes{
-	display: flex;
-	height: 200px;
-	align-items: flex-end;
+div.container
+{
+  background-color: #666;
 }
-.post{
-	background-color:#CDC1C1;
+.mynavbar
+{
+  background-color: #000;
+  min-height: 15%;   
 }
-.fa{
-	margin-right:5px;
+.mynavbar li
+{
+  text-align: center;
 }
-.fa-facebook {
-    padding:10px 14px;
-	border-radius: 2px;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition: .5s;
-	color: #fff;
-    background-color: #3d5b99;
-}
-.fa-facebook:hover {
-    background-color: #0013AB;
-	transform: scale(1.1);}
 
-.fa-twitter {
-    padding:10px 14px;
-	border-radius: 2px;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition: .5s;
-	color: #fff;
-    background-color: #1497AC;
+#logo
+{
+  width: 25%;
 }
-.fa-twitter:hover {
-    background-color: #1497AC;
-	transform: scale(1.1);}
-.fa-youtube {
-    padding:10px 14px;
-	border-radius: 2px;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition: .5s;
-	color: #fff;
-    background-color: #F00105;
+.redes-sociales
+{
+  padding-top: 6%;
+  padding-bottom: 3%;
 }
-.fa-youtube:hover {
-    background-color: #F00105;
-	transform: scale(1.1);}
-.fa-instagram {
-    padding:10px 14px;
-	border-radius: 2px;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition: .5s;
-	color: #fff;
-      background: linear-gradient(220deg,#9C0097,#F00105,#E7ED08);
+.redes-sociales a:hover
+{
+  opacity: 0.5;
 }
-.fa-instagram:hover {
-    background-color: #E7ED08;
-	transform: scale(1.1);}
-ul{background-color:#333;
-   color: #fff;}
-ul li a{
-	color:#fff;
+.jpg-social
+{
+  height: 40px;
+  width: 40px;
 }
-ul li a:hover{
-	color:#333;
+.mynavbar .nav li a:hover
+{
+  color: white;
+  background-color: #1E6667;
+}
+
+.mynavbar .nav li a
+{
+  color: #ADD8E6;
+}
+
+
+
+.leftCol li:hover
+{
+  background-color: gray;
+}
+
+.row .imagenM
+{
+  width: 100%;
+  margin-top: 6%;
+  margin-bottom: 3%;
+}
+.jpgCom
+{
+  width: 80px;
+  height: 80px;
+}
+.comment
+{
+  width: 100%;
+  height: 80px;
+  display: inline;
+}
+.leftCol
+{
+  padding: 5px;
+  color: black;
+}
+.leftCol li
+{
+  background-color: #F8F8FF;
+}
+.leftCol div
+{
+  margin-bottom: 5px;
+}
+article
+{
+  padding: 10px;
+}
+article .row
+{
+  padding: 5px 5px 5px 10px;
+}
+@media (min-width: 768px) 
+{
+  .topMenu
+  {
+    width: 100%;
+  }
+  .topMenu li
+  {
+    width: 16%;
+  }
 }
